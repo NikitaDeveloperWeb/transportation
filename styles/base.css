@@ -1,0 +1,54 @@
+/* Обнуление */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #fff;
+}
+/* html */
+html{
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+/* Тело */
+body{
+    width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    background-color: #2F343A;
+}
+/* Ссылки */
+ a{ 
+    -ms-text-kashida-space: 0%;
+    color: #fff;
+    text-decoration: none;
+}
+/* Наведение на ссылки */
+a:hover{
+    color:#fff;
+    transition: 0.5s;
+    opacity: 0.5;
+    cursor:pointer;
+} 
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+   }
+h1{
+    text-transform: uppercase;
+}   
+h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
